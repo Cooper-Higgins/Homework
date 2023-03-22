@@ -12,19 +12,22 @@ stops.insert(4, "Polmont")
 #4. Print out the index position of "Linlithgow"
 print(stops[5])
 
+#could/should have done print(stops.index["Linlithgow"])
+
 #5. Remove "Livingston" from the list using its name
 stops.remove("Livingston")
 
 #6. Delete "Cumbernauld" from the list by index
-del stops[2]
+stops.pop(2)
 
 #7. Print the number of stops there are in the list
 stops_length = len(stops)
 print(stops_length)
 
+#could have done: print(len[stops])
+
 #8. Sort the list alphabetically
 stops.sort()
-print(stops)
 
 #9. Reverse the positions of the stops in the list
 stops.reverse()
